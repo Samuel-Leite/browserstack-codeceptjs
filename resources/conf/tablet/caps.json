@@ -1,0 +1,10 @@
+{
+    "galaxyTab": {
+        "platformName": "ANDROID",
+        "realMobile": "true",
+        "device": "Samsung Galaxy Tab S9",
+        "os_version": "13",
+        "browserName": "chrome",
+        "automationName": "UiAutomator2"
+    }
+}

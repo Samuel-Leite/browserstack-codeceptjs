@@ -1,0 +1,10 @@
+{
+    "galaxyS21": {
+        "platformName": "ANDROID",
+        "realMobile": "true",
+        "device": "Samsung Galaxy S21",
+        "os_version": "11",
+        "browserName": "chrome",
+        "automationName": "UiAutomator2"
+    }
+}

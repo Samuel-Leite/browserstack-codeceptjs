@@ -1,0 +1,27 @@
+{
+  "name": "browserstack-codeceptjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run ./tests/login_test.js",
+    "phone": "ENV MODE='tablet' CAPS='galaxyTab' RETRY=0 npx codeceptjs run ./tests/login_test.js --verbose"
+  },
+  "author": "Samuel Leite",
+  "license": "ISC",
+  "dependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "allure-commandline": "^2.18.1",
+    "appium": "^2.2.1",
+    "browserstack-webdriver": "^2.41.1",
+    "codeceptjs": "^3.5.7",
+    "codeceptjs-chai": "^2.3.3",
+    "codeceptjs-tests": "^0.0.1",
+    "cpf_cnpj": "^0.2.0",
+    "dotenv": "^16.3.1",
+    "mocha-multi": "^1.1.6",
+    "node-datetime": "^2.1.2",
+    "random-number": "^0.0.9",
+    "webdriverio": "^8.22.1"
+  }
+}
