@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx codeceptjs run ./tests/login_test.js",
-    "phone": "ENV MODE='tablet' CAPS='galaxyTab' RETRY=0 npx codeceptjs run ./tests/login_test.js --verbose"
+    "phone": "ENV MODE='tablet' CAPS='galaxyTab' RETRY=0 npx codeceptjs run ./tests/scenarios/login_test.js --verbose",
+    "tag": "ENV MODE='tablet' CAPS='galaxyTab' RETRY=0 npx codeceptjs run --verbose --grep"
   },
   "author": "Samuel Leite",
   "license": "ISC",

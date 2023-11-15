@@ -3,7 +3,6 @@ const { container, ecorder, event, output, helper } = require("codeceptjs");
 const execSync = require("child_process").execSync;
 const utf8 = { encoding: "utf-8" };
 const utils = require("./Utils");
-var validacao = "";
 
 class hooks extends Helper {
   _init() {

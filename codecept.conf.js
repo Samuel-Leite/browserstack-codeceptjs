@@ -19,8 +19,8 @@ exports.config = {
     Appium: {
       host: "hub-cloud.browserstack.com",
       port: 4444,
-      user: "samuelleite_GtpoxN",
-      key: "sYCp8ma8kXSd4DoH6mAY",
+      user: process.env.BROWSERSTACK_USER,
+      key: process.env.BROWSERSTACK_KEY,
       platform: capabilities.platformName,
       desiredCapabilities: capabilities,
     },
@@ -58,7 +58,7 @@ exports.config = {
     },
   },
   include: {
-    I: "./steps_file.js",
+    I: "./helpers/Components.js",
   },
   plugins: {
     // Para uso do Allure report
